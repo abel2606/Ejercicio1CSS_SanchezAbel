@@ -27,6 +27,7 @@ nav{
     color: #F9F9EF;
     width: 90%;
     margin: auto;
+    margin-top: 2.5rem;
     max-width: 1800px;
     padding: 0.9rem 2rem;
     display: flex;
@@ -57,6 +58,7 @@ header{
     width: 95%;
     margin: auto;
     max-width: 1800px;
+    height: 80vh;
 }
 
 header a{
@@ -87,4 +89,56 @@ header img{
     border-radius: 1.5rem 1.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.card {
+    background-color: #FAF9EF;
+    border-radius: 1rem 1rem;
+}
+
+.card-horizontal{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+
+.card-vertical{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+section{
+    width: 95%;
+    max-width: 1800px;
+    margin: auto;
+
+}
+
+.booking form{
+    display: flex;
+    gap: 0.5rem;
+}
+.booking input{
+    background-color: #EFE4CE;
+    border-color: #ADA6A2;
+    border-style: solid;
+    border-width: 1.5px;
+    padding: 1rem 1.3rem;
+    border-radius: 1rem;
+
+}
+
+.booking input[type="submit"]{
+    background-color: #12BA9C;
+    border-style: none;
+    color: #EFE4CE;
+}
+
+.label-input{
+    display: flex;
+    flex-direction: column;
 }

@@ -41,17 +41,22 @@
 
     <section class="booking">
         <div>Book a Table <img src="./imgs/icons/arrow_1.svg" alt="arrow" height="10"></div>
-        <div class="card">
+        <div class="card card-horizontal">
             <form action="">
-                <label for="date">Date <img src="./imgs/icons/arrow_2.svg" alt="arrow" height="10"></label>
-                <input type="date" name="date">
+                <div class="label-input">
+                    <label for="date">Date <img src="./imgs/icons/arrow_2.svg" alt="arrow" height="10"></label>
+                    <input type="date" name="date">
+                </div>
 
+                <div class="label-input">
+                    <label for="Time">Time <img src="./imgs/icons/arrow_2.svg" alt="arrow" height="10"></label>
+                    <input type="time" name="time" id="">
+                </div>
 
-                <label for="Time">Time <img src="./imgs/icons/arrow_2.svg" alt="arrow" height="10"></label>
-                <input type="time" name="time" id="">
-
-                <label for="email">Mail<img src="./imgs/icons/arrow_2.svg" alt="arrow" height="10"></label>
-                <input type="email" value="" placeholder="yourmail@domain.com">
+                <div class="label-input">
+                    <label for="email">Mail<img src="./imgs/icons/arrow_2.svg" alt="arrow" height="10"></label>
+                    <input type="email" value="" placeholder="yourmail@domain.com">
+                </div>
 
                 <input type="submit" value="Check availability">
             </form>
@@ -61,7 +66,7 @@
     <section>
         <h5>Delicious</h5>lenguale
         <h2>Food categories</h2>
-        <div class="card">
+        <div class="card card-vertical">
             <img src="./imgs/categories/meat.svg" alt="" height="45">
             <h3>Meat</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam similique aut error hic nisi illum
@@ -70,7 +75,7 @@
             <a href="" class="button orange">Read more</a>
         </div>
 
-        <div class="card"></div>
+        <div class="card card-vertical">
         <img src="./imgs/categories/fish.svg" alt="" height="45">
         <h3>Fish</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam similique aut error hic nisi illum omnis
@@ -79,7 +84,7 @@
         <a href="" class="button orange">Read more</a>
         </div>
 
-        <div class="card"></div>
+        <div class="card card-vertical">
         <img src="./imgs/categories/drink.svg" alt="" height="45">
         <h3>Drink</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam similique aut error hic nisi illum omnis
