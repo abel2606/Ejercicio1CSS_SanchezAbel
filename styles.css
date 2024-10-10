@@ -21,6 +21,31 @@ h1{
     font-weight: 800;
     font-size: 3.5rem;
 }
+h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Playfair Display";
+    margin-top: 0rem;
+}
+
+h3{
+    font-size: 1.8rem;
+    font-family: "Playfair Display";
+    font-weight: 1000;
+}
+
+h4{
+    font-size: 1.3rem;
+    font-family: "Playfair Display";
+    font-weight: 800;
+}
+
+h5{
+    text-align: center;
+    color: #FFAF42;
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+}
 
 nav{
     background-color: #021B2E;
@@ -37,6 +62,7 @@ nav{
 .logo{
     font-family: "Playfair Display";
     font-weight: 800;
+    height: fit-content;
 }
 
 nav>a{
@@ -47,6 +73,7 @@ nav>a{
 nav ul{
     list-style-type: none;
     display: flex;
+    margin: 0;
     
 }
 nav>ul a{
@@ -59,6 +86,7 @@ header{
     margin: auto;
     max-width: 1800px;
     height: 80vh;
+    display: flex;
 }
 
 header a{
@@ -73,6 +101,8 @@ header img{
     width: 60%;
     
 }
+
+
 .orange{
     background-color: #FF5710;
     color: #EFE4CE;
@@ -109,14 +139,23 @@ header img{
     padding-bottom: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    width: 25%;
 }
 
+.card-vertical img{
+    height: 200px;
+}
 section{
     width: 95%;
     max-width: 1800px;
     margin: auto;
 
 }
+
 
 .booking form{
     display: flex;
@@ -141,4 +180,60 @@ section{
 .label-input{
     display: flex;
     flex-direction: column;
+}
+
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+
+.customers h2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.customers div{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    
+}
+
+.customers article{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 2px solid blue;
+    align-items: center;
+}
+
+
+.customers img{
+    height: 10rem;
+    float: left;
+}
+
+
+article span{
+    color: #cbc6b8;
+    border: 2px solid orange;
+    padding: 0px;
+}
+
+article h4{
+    font-size: 2rem;
+    border: 2px solid yellow;
 }
